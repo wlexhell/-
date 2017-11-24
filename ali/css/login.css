@@ -1,0 +1,113 @@
+.login-box{
+	height:300px;
+	width:320px;
+	float:right;
+	margin-top:30px;
+	position:relative;
+	padding:10px;
+	background:#fff;
+	margin-top: 100px;
+}
+.login-box>ul>li{
+	position: relative;
+	margin-top:30px;
+}
+.login-label{
+	  position: absolute;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    width: 38px;
+    height: 38px;
+		border:0;
+    border-right: 1px solid #bdbdbd;
+}
+.itxt{
+	line-height: 18px;
+	height: 18px;
+	border: 0;
+	padding: 10px 0 10px 50px;
+	width: 254px;
+	float: none;
+	overflow: hidden;
+	font-size: 14px;
+	font-family: '\5b8b\4f53';
+	background-color:#fff;
+	border:1px solid #bdbdbd;
+}
+
+.fm-submit{
+	display: block;
+	text-align: center;
+	background: #00C1DE;
+	height: 40px;
+	line-height: 40px;
+	box-sizing: border-box;
+	font-size: 14px;
+	border-radius: 0;
+	width:306px;
+	outline:none;
+	border:0;
+	color:#1F2325 !important;
+}
+.fm-submit:hover{
+	background-color: #00b7d3;
+	border-color: #00b7d3;
+	cursor:pointer;
+}
+.forget-pwd,.register{
+	display:inline-block;
+	float:right;
+	margin-left:10px;
+}
+.login-box #forUname,.login-box #forUpwd{
+	position:absolute;
+	left:50px;
+	color:red;
+	display:none;
+	top:40px;
+}
+.form-login{
+	margin: 0 auto;
+	min-width: 1200px;
+    max-width: 1200px;
+    position: relative;
+	height: 500px;
+}
+.form-login-mask{
+	position: absolute;
+	top:-40px;
+	left:0;
+	z-index: -1;
+	width:100%;
+	height:580px;
+	background-color: #1F2325;
+    background-image: url(../img/TB1ittHRFXXXXcSXFXXXXXXXXXX-2880-1280.jpg);
+    background-size: cover;
+}
+.login-bar{
+	position: absolute;
+	z-index: 998;
+	top:100px;
+	left:200px;
+	width:320px;
+}
+.login-bar>a{
+	color:#fff;
+}
+.login-bar>a>h1{
+	font-size: 30px;
+    color: #FFFFFF;
+    line-height: 36px;
+    margin-bottom: 19px;
+    font-weight: bold;
+}
+.login-bar>a>ul>li{
+	font-size: 14px;
+    color: #FFFFFF;
+    letter-spacing: 0.47px;
+    line-height: 30px;
+}
+.login-box>ul>li>a{
+	    color: #9B9EA0;
+}

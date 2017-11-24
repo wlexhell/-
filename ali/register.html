@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册</title>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="./css/login.css">
+    <link rel="shortcut icon" href="favicon.ico">
+    <style>
+        .main{
+            color:#000;
+            height: 60px;
+            position: relative;
+            border-bottom: 1px solid #D7D8D9;
+            *zoom: 1;
+            background-color: #f5f5f6;
+        }
+        .main .common-topbar-menu a{
+            color: #0f0f0f;
+            font-size:20px;
+        }
+        .common-topbar-logo img{
+            width:130%;
+            top:.3%;
+        }
+        .main:hover{
+            background: #f5f5f6;
+        }
+        .common-topbar-site-switch{
+            font-size: 12px;
+            color: #0f0f0f;
+            background: #f5f5f6;
+        }
+        .common-topbar-site-switch:hover>ul{
+            background: #f5f5f6;
+        }
+        .register-page{
+            width: 100%;
+            background: #8c8c8c;
+        }
+        .register{
+            height:1200px;
+            width:100%;
+            background: #f5f5f6;
+        }
+        .register-container{
+            width:1200px;
+            height:500px;
+            margin: 0 auto;
+            background: #FFFFFF;
+        }
+        .register-container-main{
+            width:318px;
+            height:468px;
+            margin:0 auto;
+        }
+        .register-container-main>h2{
+            padding-top: 40px;
+            font-size: 30px;
+            color: #373d41;
+            letter-spacing: 1px;
+            line-height: 36px;
+        }
+        .register-container-main>ul>li{
+            width: 100%;
+            border:1px solid #8c8c8c;
+            margin-top:30px;
+            position: relative;
+        }
+        .register-container-main>ul>li:hover{
+            border-color: #00cdec;
+            transition: all .3s linear;
+        }
+        .register-container-main>ul>li>span{
+            position:absolute;
+            display: none;
+        }
+        .register-container-main>ul{
+            width: 100%;
+            height: 40px;
+        }
+        .register-container-main>ul>li>input{
+            width: 90%;
+            border: none;
+            outline: none;
+            font-weight: 400;
+            vertical-align: baseline;
+            background-color: #fff;
+            height: 38px;
+            line-height: 38px;
+            margin: 0;
+            padding: 0 8px;
+        }
+        .register-container-main>ul>li:last-child{
+            border:none;
+        }
+        .register-container-main>ul>li:last-child>a{
+            color:#00cdec;
+        }
+        .register-container-main>ul>li:last-child>input{
+            width: 12px;
+            height:12px;
+        }
+        .sub-register{
+            border-style: solid;
+            background-color: #00c1de;
+            border-color: transparent;
+            width: 100%;
+            margin: 0;
+            height: 40px;
+            padding: 0 20px;
+            font-size: 16px;
+            line-height: 38px;
+            border-width: 1px;
+            position: relative;
+            display: inline-block;
+            font-style: normal;
+            font-family: inherit;
+            cursor: pointer;
+            transition: all .1s ease-out;
+            box-shadow: none;
+            border-radius: 0;
+            text-align: center;
+            color:#fff;
+        }
+        .sub-register:hover{
+            background: #00b7d3;
+            transition: all .5s linear;
+        }
+        .y-row{
+            min-width: 1000px;
+            max-width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+            color:#fff;
+        }
+        .gg-footer{
+            box-sizing: border-box;
+        }
+        .gg-footer{
+            background-color: #373d41;
+        }
+        .gg-footer a{
+            font-size: 16px;
+            color: #9b9ea0;
+            margin-right: 35px;
+            transition: color .3s;
+        }
+        .gg-footer a:hover{
+            color:#0aa1ed;
+        }
+        .gg-footer .link-item{
+            display: inline-block;
+            font-size: 14px;
+            color: #73777a;
+            margin-right: 10px;
+            margin-top: 10px;
+            transition: color .3s;
+        }
+        .gg-footer .link-wrap{
+            padding-top: 32px;
+        }
+    </style>
+</head>
+<body>
+    <div class="register-page">
+        <div class="main">
+         <div class="common-topbar-top">
+            <div class="common-topbar-logo">
+                <img class="black" style="z-index: 2;" src="//img.alicdn.com/tps/TB15vyaLpXXXXXXXFXXXXXXXXXX-198-46.png">
+                <img class="black" style="z-index: 1;" src="//img.alicdn.com/tps/TB1SW9jLpXXXXbEXXXXXXXXXXXX-198-46.gif">
+        </div>
+            <div class="common-topbar-menu" style="margin-left:40px;">
+             <a href="">首页</a>
+            </div>
+             <div class="common-topbar-site-switch">
+                <div class="top-pos">
+                    <img src="img/TB18R7RRpXXXXabapXXXXXXXXXX-32-32.png" alt="">中国站</div>
+                <ul class="laction-site">
+                    <li>
+                        <a href="">International - English</a>
+                    </li>
+                    <li>
+                        <a href="">International - 简体中文</a>
+                    </li>
+                    <li>
+                        <a href="">日本サイト</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        </div>
+        <div class="register">
+            <div class="register-top" style="width:100%;height:100px;"></div>
+            <div class="register-container">
+                <div class="register-container-main">
+                    <h2>欢迎注册阿里云</h2>
+                    <ul>
+                        <li>
+                            <input type="text" placeholder="设置会员名" id="uName">
+                            <span>1</span>
+                        </li>
+                        <li>
+                            <input type="password" placeholder="设置密码" id="uPwd">
+                            <span>2</span>
+                        </li>
+                        <li>
+                            <input type="password" placeholder="再次输入您的密码" id="uPwd1">
+                            <span>3</span>
+                        </li>
+                        <li>
+                            <input type="text" placeholder="电话号码" id="phone">
+                            <span>4</span>
+                        </li>
+                        <li>
+                            <button class="sub-register" id="sub-register">同意并注册</button>
+                        </li>
+                        <li>
+                            <input type="checkbox" checked>
+                            <a href="">《阿里云网站服务条款》</a>
+                            <a href="">《法律和隐私声明》</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <script>
+            $(()=>{
+               var $uname=$("#uName"),
+                    $upwd=$("#uPwd"),
+                    $upwd1=$("#uPwd1"),
+                   $phone=$("#phone"),
+                   $check=$("[type=checkbox]"),
+                    $sub=$("#sub-register");
+
+               $uname.on("blur",()=>{
+                   //获得UName 和 他下面的span
+                   var $u=$uname.val(),
+                       $span=$("#uName + span");
+                   if($u==""||$u.length<6) {
+                       $span.css("display","block");
+                       $span.html("用户名不能为空，长度在6-12之间")
+                   }else {
+                       $span.css("display","none");
+                   }
+
+               });
+               $upwd.on("blur",()=> {
+
+                    var $u = $upwd.val(),
+                        $span = $("#uPwd + span");
+                    if ($u == "") {
+                        $span.css("display", "block");
+                        $span.html("密码不能为空，长度在6-18之间，且不能为纯数字")
+                    } else {
+                        $span.css("display", "none");
+                    }
+                });
+               $upwd1.on("blur",()=>{
+                   //console.log($upwd.val().length,$upwd1.val().length)
+                        var $u=$upwd1.val(),
+                            $span=$("#uPwd1 + span");
+                        if($upwd1.val().length != $upwd.val().length) {
+                            $span.css("display","block");
+                            $span.html("两次输入的密码不一样")
+                        }else {
+                            $span.css("display","none");
+                        }
+
+                });
+                $phone.on("blur",()=>{
+                    var $u=$phone.val(),
+                        $span=$("#phone + span");
+                    var reg = new RegExp('\d{9}')
+                    if(reg.test($u)) {
+                        $span.css("display","block");
+                        $span.html("请输入正确的电话号码")
+                    }else {
+                        $span.css("display","none");
+                    }
+
+                });
+
+               $sub.click(()=>{
+                   var $u=$("#uName").val(),
+                       $p=$("#uPwd").val(),
+                       $h=$("#phone").val();
+                   $.ajax({
+                       type: "GET",
+                       url:"./data/register.php",
+                       data:{uname:$u,upwd:$p,phone:$h},
+                       success:function(data) {
+                           if(data.code > 0) {
+                               alert(data.msg+"为您跳转到登陆页面");
+                               location="/ali/login.html";
+                           }else {
+                               alert(data.msg+"请重新输入");
+                               $uname.val("");
+                               $upwd.val("");
+                               $upwd1.val("");
+                               $phone.val("");
+                           }
+
+                       }
+                   })
+               });
+
+            })
+        </script>
+        <div class="gg-footer">
+            <div class="ali-copyright-100">
+                <div class="y-row copyright">
+                    <p class="big" style="display: inline-block">
+
+                        <a href="//www.aliyun.com/about" target="_blank" spm="about" data-spm-click="gostr=/aliyun;locaid=about" rel="nofollow">关于我们</a>
+
+                        <a href="http://terms.aliyun.com/legal-agreement/terms/suit_bu1_ali_cloud/suit_bu1_ali_cloud201710161525_98396.html" target="_blank" spm="law" data-spm-click="gostr=/aliyun;locaid=law" rel="nofollow">法律声明</a>
+
+
+
+                        <a href="https://jubao.alibaba.com/index.html?site=ALIYUN" target="_blank" spm="jubao" data-spm-click="gostr=/aliyun;locaid=jubao" rel="nofollow">廉正举报</a>
+
+                        <a href="//www.aliyun.com/links" target="_blank" spm="links" data-spm-click="gostr=/aliyun;locaid=links">友情链接</a>
+
+                    </p>
+                    <p class="link-wrap">
+                        <a class="link-item" rel="nofollow" href="http://www.alibabagroup.com/cn/global/home" target="_blank" data-spm-click="gostr=/aliyun;locaid=d8001">阿里巴巴集团</a>
+                        <a class="link-item" rel="nofollow" href="//www.taobao.com/" target="_blank" data-spm-click="gostr=/aliyun;locaid=d8002">淘宝网</a>
+                        <a class="link-item" rel="nofollow" href="//www.tmall.com/" target="_blank" data-spm-click="gostr=/aliyun;locaid=d8003">天猫</a>
+                        <a class="link-item" rel="nofollow" href="//ju.taobao.com/" target="_blank" data-spm-click="gostr=/aliyun;locaid=d8004">聚划算</a>
+                        <a class="link-item" rel="nofollow" href="//www.aliexpress.com/" target="_blank" data-spm-click="gostr=/aliyun;locaid=d8005">全球速卖通</a>
+                        <a class="link-item" rel="nofollow" href="//www.alibaba.com/" target="_blank" data-spm-click="gostr=/aliyun;locaid=d8006">阿里巴巴国际交易市场</a>
+                        <a class="link-item" rel="nofollow" href="//www.1688.com/" target="_blank" data-spm-click="gostr=/aliyun;locaid=d8007">1688</a>
+                        <a class="link-item" rel="nofollow" href="//www.alimama.com/index.htm" target="_blank" data-spm-click="gostr=/aliyun;locaid=d8008">阿里妈妈</a>
+                        <a class="link-item" rel="nofollow" href="//www.alitrip.com/" target="_blank" data-spm-click="gostr=/aliyun;locaid=d8009">飞猪</a>
+                        <a class="link-item" rel="nofollow" href="//www.aliyun.com/" target="_blank" data-spm-click="gostr=/aliyun;locaid=d8010">阿里云计算</a>
+                        <a class="link-item" rel="nofollow" href="//www.yunos.com/" target="_blank" data-spm-click="gostr=/aliyun;locaid=d8011">YunOS</a>
+                        <a class="link-item" rel="nofollow" href="//aliqin.tmall.com/" target="_blank" data-spm-click="gostr=/aliyun;locaid=d8012">阿里通信</a>
+                        <a class="link-item" rel="nofollow" href="//wanwang.aliyun.com/" target="_blank" data-spm-click="gostr=/aliyun;locaid=d8013">万网</a>
+                        <a class="link-item" rel="nofollow" href="http://www.autonavi.com/" target="_blank" data-spm-click="gostr=/aliyun;locaid=d8014">高德</a>
+                        <a class="link-item" rel="nofollow" href="http://www.uc.cn/" target="_blank" data-spm-click="gostr=/aliyun;locaid=d8015">UC</a>
+                        <a class="link-item" rel="nofollow" href="//www.umeng.com/" target="_blank" data-spm-click="gostr=/aliyun;locaid=d8016">友盟</a>
+                        <a class="link-item" rel="nofollow" href="//www.xiami.com/" target="_blank" data-spm-click="gostr=/aliyun;locaid=d8017">虾米</a>
+                        <a class="link-item" rel="nofollow" href="//www.alibabaplanet.com" target="_blank" data-spm-click="gostr=/aliyun;locaid=d8018">阿里星球</a>
+                        <a class="link-item" rel="nofollow" href="//www.laiwang.com/" target="_blank" data-spm-click="gostr=/aliyun;locaid=d8019">来往</a>
+                        <a class="link-item" rel="nofollow" href="//www.dingtalk.com/?lwfrom=20150205111943449" target="_blank" data-spm-click="gostr=/aliyun;locaid=d8020">钉钉</a>
+                        <a class="link-item" rel="nofollow" href="https://www.alipay.com/" target="_blank" data-spm-click="gostr=/aliyun;locaid=d8021">支付宝</a>
+                    </p>
+                    <p class="copyright">
+                        © 2009-2017 Aliyun.com 版权所有 ICP证：浙B2-20080101
+                    </p>
+                    <p>
+                        <a target="_blank" href="http://idinfo.zjaic.gov.cn/bscx.do?method=hddoc&amp;id=33010800001867" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;margin:0;">
+                            <img style="width: 20px;margin-top:-14px;" src="//gw.alicdn.com/tfs/TB1GxwdSXXXXXa.aXXXXXXXXXXX-65-70.gif">
+                        </a>
+                        <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33010002000099" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;">
+                            <img style="float: left; width: 20px;" src="//img.alicdn.com/tfs/TB1..50QpXXXXX7XpXXXXXXXXXX-40-40.png"><span style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#939393; font-size: 12px;">浙公网安备 33010002000099号</span>
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>
